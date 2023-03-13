@@ -1,6 +1,6 @@
 ---
 - name: First playbook
-- hosts: linuxservers
+  hosts: linuxservers
   become: true
 
   tasks:
