@@ -5,7 +5,7 @@
   tasks:
   - name: Install updates
     ansible.windows.win_updates:
-    category_names: '*'
-    skip_optional: false
-    reboot: yes
-    reboot_timeout: 3600
+      category_names: '*'
+      skip_optional: false
+      reboot: yes
+      reboot_timeout: 3600
