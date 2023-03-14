@@ -1,11 +1,10 @@
 ---
 - name: Windows Update
   hosts: domainmembers
-  
   tasks:
   - name: Install updates
     ansible.windows.win_updates:
       category_names: '*'
       skip_optional: false
-      reboot: yes
+      reboot: true
       reboot_timeout: 3600
