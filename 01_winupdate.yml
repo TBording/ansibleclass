@@ -1,6 +1,6 @@
 ---
 - name: Windows Update
-  hosts: domainmembers
+  hosts: domainmember
   tasks:
   - name: Install updates
     ansible.windows.win_updates:
