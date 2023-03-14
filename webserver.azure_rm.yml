@@ -1,7 +1,7 @@
 plugin: azure_rm
 auth_source: auto
 include_vm_resource_groups:
-  - 'webserv_tbh'
+  - 'webserver_tbh'
 keyed_groups:
   - prefix: tag
     key: tags
